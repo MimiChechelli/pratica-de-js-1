@@ -1,10 +1,13 @@
 function listarCasos() {
     let todosOsCasos = []
-    //--- inclua seu algoritmo aqui ---
+    let string = window.prompt("Insira um número:");
+    let numeroInteiro = parseInt(string);
+    todosOsCasos.push(numeroInteiro);
+    let quadrado = numeroInteiro * numeroInteiro;
 
-    
-
-    //--- ---
+    if (quadrado.toString().length === 4) {
+        todosOsCasos.push(quadrado);
+    }
     return todosOsCasos
 }
 

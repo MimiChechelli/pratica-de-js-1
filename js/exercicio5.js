@@ -7,5 +7,5 @@ function conversaoCtoF() {
 	let textCelcius = document.getElementById("celciusText")
 	let textFahrenheit = document.getElementById("resultFahrenheit")
 	textFahrenheit.textContent = convertCelciusToFahrenheit(textCelcius.value) + 
-								 "ºF"
+								"ºF"
 }
